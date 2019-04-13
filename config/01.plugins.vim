@@ -1,13 +1,13 @@
 " Required:
-set runtimepath+=/home/afnan/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/home/mako/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/afnan/.cache/dein')
-    call dein#begin('/home/afnan/.cache/dein')
+if dein#load_state('/home/mako/.cache/dein')
+    call dein#begin('/home/mako/.cache/dein')
 
     " Let dein manage dein
     " Required:
-    call dein#add('/home/afnan/.cache/dein/repos/github.com/Shougo/dein.vim')
+    call dein#add('/home/mako/.cache/dein/repos/github.com/Shougo/dein.vim')
 
     " Add or remove your plugins here:
     call dein#add('Shougo/neosnippet')
